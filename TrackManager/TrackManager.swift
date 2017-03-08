@@ -80,13 +80,6 @@ import Foundation
     }
 }
 
-@objc public protocol Connector {
-    
-    func id() -> String
-    
-    func track(_ trackable: Trackable)
-}
-
 func ==(lhs: Connector, rhs: Connector) -> Bool {
     
     return lhs.id() == rhs.id()
