@@ -10,7 +10,7 @@ import Foundation
 
 @objc public class ContentViewEvent: Event, Trackable {
 
-    let contentId: String
+    public let contentId: String
     
     public func event() -> Event {
         
