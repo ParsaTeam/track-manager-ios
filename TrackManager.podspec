@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TrackManager"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2-alpha"
   s.summary      = "To be added..."
 
   # This description is used to generate tags and improve search results.
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@netcode.netapp.ws:libs/track-manager-ios.git" ,:tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ParsaTeam/track-manager-ios.git" ,:tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
