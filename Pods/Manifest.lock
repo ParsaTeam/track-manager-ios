@@ -1,0 +1,15 @@
+PODS:
+  - AWSCore (2.5.1)
+  - AWSPinpoint (2.5.1):
+    - AWSCore (= 2.5.1)
+
+DEPENDENCIES:
+  - AWSPinpoint (~> 2.5)
+
+SPEC CHECKSUMS:
+  AWSCore: 71ca929a42c68ca7d645fcfa1e41ea0ff792a275
+  AWSPinpoint: 4054b79b2a688385edc31e7b9cd8232d9527176c
+
+PODFILE CHECKSUM: 8bf86c2c04bd59fe69cb954cc73b5b8c7f69b03f
+
+COCOAPODS: 1.2.0
