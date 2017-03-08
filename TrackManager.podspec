@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TrackManager"
-  s.version      = "0.0.6-alpha"
+  s.version      = "0.0.7-alpha"
   s.summary      = "To be added..."
 
   # This description is used to generate tags and improve search results.
