@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol Trackable {
+@objc public protocol Trackable {
    
     func event() -> Event
 }

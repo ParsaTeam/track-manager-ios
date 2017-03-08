@@ -24,7 +24,7 @@ import Foundation
 
     //MARK: Tracking methods
     
-    public func track(trackable: Trackable, excluding: [String] = []) {
+    public func track(_ trackable: Trackable, excluding: [String] = []) {
         
         DispatchQueue.global(qos: .background).async {
             
@@ -42,7 +42,7 @@ import Foundation
     
     //MARK: Connector handling methods
     
-    public func add(connector: Connector) {
+    public func add(_ connector: Connector) {
         
         guard (self.connectors.index { $0 == connector }) == nil else {
             
@@ -56,7 +56,7 @@ import Foundation
         log("Added connector with id \"\(connector.id())\"")
     }
     
-    func remove(connector: Connector) {
+    func remove(_ connector: Connector) {
         
         if let index = (self.connectors.index { $0 == connector }) {
             
@@ -80,7 +80,7 @@ import Foundation
     }
 }
 
-public protocol Connector {
+@objc public protocol Connector {
     
     func id() -> String
     
