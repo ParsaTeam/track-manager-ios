@@ -15,3 +15,5 @@ FOUNDATION_EXPORT double TrackManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char TrackManagerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import
+
+#import "TrackManager-Swift.h"

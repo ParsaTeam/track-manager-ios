@@ -14,17 +14,17 @@ import Foundation
     
     override private init() { }
     
-    static let shared = TrackManager()
+    public static let shared = TrackManager()
     
     //MARK: Properties
     
-    var showLogs = true
+    public var showLogs = true
     
     private var connectors: [Connector] = []
 
     //MARK: Tracking methods
     
-    func track(_ trackable: Trackable, excluding: [String] = []) {
+    public func track(_ trackable: Trackable, excluding: [String] = []) {
         
         DispatchQueue.global(qos: .background).async {
             
@@ -42,7 +42,7 @@ import Foundation
     
     //MARK: Connector handling methods
     
-    func add(_ connector: Connector) {
+    public func add(_ connector: Connector) {
         
         guard (self.connectors.index { $0 == connector }) == nil else {
             
