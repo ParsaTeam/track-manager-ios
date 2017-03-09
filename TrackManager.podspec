@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TrackManager"
-  s.version      = "0.0.8-alpha"
+  s.version      = "0.0.9-alpha"
   s.summary      = "To be added..."
   s.description  = <<-DESC
   To be created...
